@@ -1,0 +1,17 @@
+sudo apt update 
+
+msfconsole
+
+use auxiliary/scanner/portscan/tcp
+sethosts 127.0.0.1
+run
+
+use auxiliary/scanner/ftp/ftp-version
+sethosts 127.0.0.1
+run
+
+
+use auxiliary/scanner/http/http-verision
+sethosts 127.0.0.1
+run
+

@@ -1,0 +1,3 @@
+sudo apt install knockpy -y
+
+knockpy -d periyaruniversity.ac.in

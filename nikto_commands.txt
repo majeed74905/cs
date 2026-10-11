@@ -1,0 +1,7 @@
+#open a new terminal and paste this :(don't close this terminal untill the response is come...)
+
+python3 -m http.server 8000 --bind 127.0.0.1
+
+#again open a new terminal and paste this :
+
+nikto -h http://127.0.0.1:8000 -nointeractive -nocheck
